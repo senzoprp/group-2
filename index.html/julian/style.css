@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom, #a8e063, #56ab2f); 
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#hero {
+    background: url('https://source.unsplash.com/1600x900/?nature,green') no-repeat center center/cover;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#hero p {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#about, #skills, #contact {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+#about h2, #skills h2, #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p, #contact p {
+    font-size: 1.1rem;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #hero h2 {
+        font-size: 2rem;
+    }
+
+    #about p, #skills ul, #contact p {
+        font-size: 1rem;
+    }
+}
+
+.profile-pic {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%; 
+    margin-right: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 2px solid #fff; 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    object-fit: cover; 
+}
+
+header {
+    padding-left: 100px;
+}
+
+#hero {
+    background: url('background.jpg') no-repeat center center/cover; 
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}

@@ -1,0 +1,284 @@
+/*FIRST PART*/
+
+#back {
+    z-index: 5;
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+    position: relative;
+    left: -300px;
+    bottom: 7130px;
+    background-color: rgb(78, 78, 104);
+
+}
+
+
+#Hard {
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    left: 290px;
+}
+
+#introduction, #Final_Hard{
+    color: rgb(174, 201, 201);
+    font-family: Helvetica;
+    text-align: center;
+    position: relative;
+    right: 350px;
+    bottom: 20px;
+}
+
+#Final_Hard{
+    z-index: 1;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 220px;
+}
+
+#introduction {
+    z-index: 1;
+    margin: 30px;
+    font-size: 22px;
+    left: 220px;
+}
+
+/*END OF FIRST PART*/
+
+
+
+/*PICTURESSS*/
+
+#dragon_warrior {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    left: 1150px;
+    bottom: 450px;
+}
+
+#mask {
+    z-index: 3;
+    height: 580px;
+    width: 380px;
+    position: relative;
+    left: 100px;
+    bottom: 380px;
+}
+
+#anger {
+    z-index: 2;
+    height: 300px;
+    width: 240px;
+    position: relative;
+    left: 130px;
+    bottom: 650px;
+}
+
+#joy {
+    z-index: 3;
+    height: 300px;
+    width: 240px;
+    position: relative;
+    left: 560px;
+    bottom: 810px;
+}
+
+#mum {
+    z-index: 3;
+    height: 420px;
+    width: 340px;
+    position: relative;
+    left: -130px;
+    bottom: 230px;
+}
+
+#babies {
+    z-index: 3;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    left: 720px;
+    bottom: 650px;
+}
+
+#nyamer {
+    z-index: 3;
+    height: 420px;
+    width: 340px;
+    position: relative;
+    left: 1420px;
+    bottom: 1015px;
+}
+
+/*END OF PICTUREESSSSS*/
+
+
+#vertical_first_name, #vertical_second_name, #vertical_mid_name, #vertical_last_name {
+    font-family: Times;
+    color: rgb(213, 245, 159);
+}
+
+#vertical_mid_name{
+    z-index: 1;
+    font-size: 50px;
+    position: relative;
+    left: 1000px;
+    bottom: 3535px;
+}
+#vertical_second_name{
+    z-index: 1;
+    font-size: 50px;
+    position: relative;
+    left: 150px;
+    bottom: 2980px;
+}
+#vertical_first_name{
+    z-index: 1;
+    font-size: 50px;
+    position: relative;
+    left: 80px;
+    bottom: 2780px;
+}
+#vertical_last_name{
+    z-index: 1;
+    font-size: 50px;
+    position: relative;
+    left: 1070px;
+    bottom: 3685px;
+}
+
+#rectangle1{
+    z-index: 1;
+    height: 600px;
+    width: 1780px;
+    background-color: rgb(78, 78, 104);
+
+    position: relative;
+    bottom: 3680px;
+    left: 50px;
+
+}
+
+#rectangle2{
+    z-index: 1;
+    height: 600px;
+    width: 1780px;
+    background-color: rgb(78, 78, 104);
+    position: relative;
+    bottom: 3640px;
+    left: 50px;
+
+}
+
+/*SECOND PART*/
+
+#background {
+    z-index: 2;
+    color: rgb(150, 224, 162);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 1050px;
+    bottom: 4900px;
+}
+
+#background_p {
+    width: 900px;
+    z-index: 2;
+    color: rgb(168, 177, 170);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 33px;
+    text-align: justify;
+    text-align-last: justify;
+    position: relative;
+    left: 780px;
+    bottom: 4970px;
+}
+
+/*END OF SECOND PART*/
+
+/*THIRD PART*/
+
+#spawn {
+    z-index: 3;
+    color: rgb(150, 224, 162);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    bottom: 4390px;
+}
+#fur {
+    z-index: 3;
+    color: rgb(150, 224, 162);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 780px;
+    bottom: 5240px;
+}
+#care {
+    z-index: 3;
+    color: rgb(150, 224, 162);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 1390px;
+    bottom: 5100px;
+}
+#light {
+    z-index: 3;
+    color: rgb(168, 177, 170);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    bottom: 5070px;
+}
+#baby_names {
+    z-index: 3;
+    color: rgb(168, 177, 170);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 640px;
+    bottom: 4960px;
+}
+#haven {
+    z-index: 3;
+    color: rgb(168, 177, 170);
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 1390px;
+    bottom: 5775px;
+}
